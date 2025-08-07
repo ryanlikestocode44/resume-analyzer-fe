@@ -7,17 +7,17 @@ import RecommendedFieldSection from "@/components/RecommendedFieldSection";
 import ResumeContentCheck from "@/components/ResumeContentCheck";
 import { XIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import OverallScoreChart from "./OverallScoreChart";
-import RecommendedSkillsSection from "./RecommendedSkillsSection";
-import RecommendedCoursesSection from "./RecommendedCoursesSection";
-import VideoSection from "./VideoSection";
-import AnalysisFooter from "./AnalysisFooter";
+import OverallScoreChart from "@/components/OverallScoreChart";
+import RecommendedSkillsSection from "@/components/RecommendedSkillsSection";
+import RecommendedCoursesSection from "@/components/RecommendedCoursesSection";
+import VideoSection from "@/components/VideoSection";
+import AnalysisFooter from "@/components/AnalysisFooter";
 import { ModeToggle } from "@/components/ui/mode-toggle";
 import { useLanguage } from "@/hooks/useLanguage";
 import LanguageToggle from "@/components/LanguageToggle";
-import ResumeNotFound from "./ResumeNotFound";
+import ResumeNotFound from "@/components/ResumeNotFound";
 
-const AnalysisPage: React.FC = () => {
+const Analysis: React.FC = () => {
   const [resumeData, setResumeData] = useState<any>(null);
   const [file, setFile] = useState<File | null>(null);
   const [showModal, setShowModal] = useState(true);
@@ -199,6 +199,18 @@ const AnalysisPage: React.FC = () => {
           <LanguageToggle />
         </div>
 
+        <div className="flex justify-end mt-2">
+          <Button
+            variant="outline"
+            onClick={() => {
+              sessionStorage.clear(); // hapus hasil sebelumnya
+              window.location.href = "/"; // redirect ke halaman awal
+            }}
+          >
+            {t.analyze_another_resume}🔁
+          </Button>
+        </div>
+
         <section id="personal-info" className="mb-12">
           <PersonalInfoSection
             name={resumeData.name}
@@ -287,4 +299,4 @@ const AnalysisPage: React.FC = () => {
   );
 };
 
-export default AnalysisPage;
+export default Analysis;

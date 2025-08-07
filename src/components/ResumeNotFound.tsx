@@ -65,12 +65,12 @@ const ResumeNotFound: React.FC = () => {
 
         {/* Deskripsi */}
         <p className="text-lg md:text-xl text-gray-600 dark:text-gray-400 max-w-xl mb-6">
-          {t.resume_not_found_desc}
+          {t.resume_not_found_description}
         </p>
 
         {/* Tombol Kembali */}
         <Button variant="default" onClick={() => navigate("/")}>
-          {t.resume_not_found_btn}
+          {t.resume_not_found_button}
         </Button>
       </div>
     </div>

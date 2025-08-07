@@ -26,6 +26,7 @@ const en = {
   resume_score_description:
     "This score is based on the automatic analysis of your resume content. It reflects how well your resume meets commonly used criteria in resume evaluation.",
   see_more_details: "See More Details",
+  analyze_another_resume: "Analyze Another Resume",
 
   //----------------------LABEL NAVIGASI-----------------------
   // Terjemahan untuk label navigasi sidebar
@@ -123,9 +124,9 @@ const en = {
 
   // Terjemahan untuk komponen ResumeNotFound
   resume_not_found_title: "Resume Not Found",
-  resume_not_found_desc:
+  resume_not_found_description:
     "Please upload your resume first through the homepage to proceed with the analysis process.",
-  resume_not_found_btn: "Back to Home Page",
+  resume_not_found_button: "Back to Home Page",
 };
 
 export default en;

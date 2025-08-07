@@ -27,6 +27,7 @@ const id = {
   resume_score_description:
     "Skor ini didasarkan pada analisis otomatis dari konten resume Anda. Skor ini mencerminkan seberapa baik resume Anda memenuhi kriteria yang umum digunakan dalam penilaian resume.",
   see_more_details: "Lihat Detail Lebih Lanjut",
+  analyze_another_resume: "Analisis Resume Lainnya",
 
   //----------------------LABEL NAVIGASI-----------------------
   // Terjemahan untuk label navigasi sidebar
