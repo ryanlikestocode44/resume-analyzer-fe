@@ -56,7 +56,7 @@ const About = () => {
           {t.about_title}
         </h1>
         <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-4">
-          <strong>CVision</strong> {t.about_description}
+          <strong>ResumeInsight</strong> {t.about_description}
         </p>
         <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-4">
           {t.about_usage}

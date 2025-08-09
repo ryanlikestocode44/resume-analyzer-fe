@@ -5,17 +5,17 @@ const en = {
 
   // Terjemahan untuk halaman About
   home_link: "Back to Home Page",
-  about_title: "About CVision",
+  about_title: "About ResumeInsight",
   about_description:
-    "is an intelligent resume analysis web application built with modern web technologies such as React, Flask, and NLP. CVision helps extract resume information through skill recommendations, assessments, and relevant video resources.",
+    "is an intelligent resume analysis web application built with modern web technologies such as React, Flask, and NLP. ResumeInsight helps extract resume information through skill recommendations, assessments, and relevant video resources.",
   about_usage:
     "This application leverages natural language processing and rule-based matching to extract information from uploaded PDF resumes.",
   about_developed_for:
-    "Designed as a final project and as a tool for students, fresh graduates, and professionals who want to view and evaluate their resumes based on information extracted by CVision.",
-  about_steps_title: "How to Use CVision",
+    "Designed as a final project and as a tool for students, fresh graduates, and professionals who want to view and evaluate their resumes based on information extracted by ResumeInsight.",
+  about_steps_title: "How to Use ResumeInsight",
   about_step: "Step",
   usage_step_1: "Upload your resume in PDF format.",
-  usage_step_2: "CVision will automatically analyze your resume.",
+  usage_step_2: "ResumeInsight will automatically analyze your resume.",
   usage_step_3: "Get skill recommendations and resume assessments.",
   usage_step_4: "Watch relevant learning videos to enhance your skills.",
 
@@ -47,8 +47,8 @@ const en = {
 
   // ---------------------KOMPONEN----------------------
   // Terjemahan untuk komponen ResumeUploader
-  title: "CVision",
-  subtitle: "Smart Resume Analyzer powered by AI",
+  title: "ResumeInsight",
+  subtitle: "Smart Resume Analysis Website",
   upload: "Upload Resume (PDF)",
   upload_failed: "Failed to upload resume.",
   upload_error: "An error occurred while uploading the resume.",
@@ -105,10 +105,11 @@ const en = {
 
   // Terjemahan untuk komponen AnalysisFooter
   resume_analyzer_info:
-    "Resume Analyzer provides recommendations based on automatic extraction results.",
+    "ResumeInsight provides recommendations based on automatic extraction results.",
   result_warning:
     "Please verify the analysis results manually. This application can make mistakes.",
-  footer_copyright: "CVision Resume Analyzer developed by Ryan Nicholas Purba",
+  footer_copyright:
+    "ResumeInsight, a resume analyzer developed by Ryan Nicholas Purba",
 
   // Terjemahan untuk RecommendedCoursesSection
   recommended_courses_title: "Recommended Courses",

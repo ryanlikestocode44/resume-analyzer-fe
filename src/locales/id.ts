@@ -5,17 +5,17 @@ const id = {
 
   // Terjemahan untuk halaman About
   home_link: "Kembali ke Halaman Utama",
-  about_title: "About CVision",
+  about_title: "About ResumeInsight",
   about_description:
-    "adalah aplikasi web analisis resume cerdas yang dibangun dengan teknologi web modern seperti React, Flask, dan NLP. CVision membantu melakukan ekstraksi informasi resume melalui rekomendasi skill, penilaian, dan sumber video relevan.",
+    "adalah aplikasi web analisis resume cerdas yang dibangun dengan teknologi web modern seperti React, Flask, dan NLP. ResumeInsight membantu melakukan ekstraksi informasi resume melalui rekomendasi skill, penilaian, dan sumber video relevan.",
   about_usage:
     "Aplikasi ini memanfaatkan pemrosesan bahasa alami dan rule-based matching untuk mengekstrak informasi dari resume PDF yang diunggah dan memberikan insight berdasarkan standar serta tren industri.",
   about_developed_for:
-    "Dirancang untuk menyelesaikan tugas akhir dan sebagai alat untuk mahasiswa, fresh graduate, dan profesional yang ingin melihat dan mengevaluasi resume berdasarkan ekstraksi informasi dari CVision.",
-  about_steps_title: "Cara Menggunakan CVision",
+    "Dirancang untuk menyelesaikan tugas akhir dan sebagai alat untuk mahasiswa, fresh graduate, dan profesional yang ingin melihat dan mengevaluasi resume berdasarkan ekstraksi informasi dari ResumeInsight.",
+  about_steps_title: "Cara Menggunakan ResumeInsight",
   about_step: "Langkah",
   usage_step_1: "Unggah resume Anda dalam format PDF.",
-  usage_step_2: "CVision akan menganalisis resume Anda secara otomatis.",
+  usage_step_2: "ResumeInsight akan menganalisis resume Anda secara otomatis.",
   usage_step_3: "Dapatkan rekomendasi skill dan penilaian resume Anda.",
   usage_step_4:
     "Tonton video pembelajaran yang relevan untuk meningkatkan skill Anda.",
@@ -33,7 +33,7 @@ const id = {
   // Terjemahan untuk label navigasi sidebar
   personal_info: "Data Personal Kandidat",
   detected_skills: "Skills yang Terdeteksi",
-  field_suggestion: "Bidang Pekerjaan Disarankan",
+  field_suggestion: "Bidang Pekerjaan yang Disarankan",
   content_check: "Cek Konten Resume",
   education_section: "Pendidikan",
   projects_section: "Karya atau Proyek",
@@ -48,8 +48,8 @@ const id = {
 
   // ---------------------KOMPONEN----------------------
   // Terjemahan untuk halaman ResumeUploader
-  title: "CVision",
-  subtitle: "Analisis Resume Pintar berbasis AI",
+  title: "ResumeInsight",
+  subtitle: "Analisis Resume Pintar",
   upload: "Unggah Resume (PDF)",
   upload_failed: "Gagal mengunggah resume.",
   upload_error: "Terjadi kesalahan saat mengunggah resume.",
@@ -106,11 +106,11 @@ const id = {
 
   // Terjemahan untuk komponen AnalysisFooter
   resume_analyzer_info:
-    "Resume Analyzer memberikan rekomendasi berdasarkan hasil ekstraksi otomatis.",
+    "ResumeInsight memberikan rekomendasi berdasarkan hasil ekstraksi otomatis.",
   result_warning:
     "Harap verifikasi hasil analisis secara manual. Aplikasi ini dapat membuat kesalahan.",
   footer_copyright:
-    "CVision Resume Analyzer dirancang oleh Ryan Nicholas Purba",
+    "ResumeInsight, a resume analyzer dirancang oleh Ryan Nicholas Purba",
 
   // Terjemahan untuk RecommendedCoursesSection
   recommended_courses_title: "Kursus yang Disarankan",

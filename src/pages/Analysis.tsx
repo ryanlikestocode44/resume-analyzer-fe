@@ -224,13 +224,6 @@ const Analysis: React.FC = () => {
         <section id="detected-skills" className="mb-12">
           <DetectedSkillsSection skills={resumeData.skills || []} />
         </section>
-        <section id="field-suggestion" className="mb-12">
-          <RecommendedFieldSection
-            field={resumeData.recommended_field}
-            matchPercent={Math.round(resumeData.field_match_percent)}
-            matchedSkills={resumeData.matched_field_skills}
-          />
-        </section>
         <section id="resume-contents" className="mb-12">
           <ResumeContentCheck
             education={resumeData.education || []}
@@ -242,6 +235,13 @@ const Analysis: React.FC = () => {
           <ResumeScoring
             contentScore={contentScore}
             experienceScore={experienceScore}
+          />
+        </section>
+        <section id="field-suggestion" className="mb-12">
+          <RecommendedFieldSection
+            field={resumeData.recommended_field}
+            matchPercent={Math.round(resumeData.field_match_percent)}
+            matchedSkills={resumeData.matched_field_skills}
           />
         </section>
         <section id="recommended-skills" className="mb-12">
