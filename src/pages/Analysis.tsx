@@ -199,7 +199,7 @@ const Analysis: React.FC = () => {
           <LanguageToggle />
         </div>
 
-        <div className="flex justify-end mt-2">
+        <div className="flex justify-end mt-5 mb-4">
           <Button
             variant="outline"
             onClick={() => {
