@@ -15,6 +15,7 @@ const ResumeUploader: React.FC<ResumeUploaderProps> = ({ onUploadSuccess }) => {
   const [file, setFile] = useState<File | null>(null);
   const [loading, setLoading] = useState<boolean>(false);
   const [error, setError] = useState<string | null>(null);
+  const apiUrl = import.meta.env.VITE_API_URL;
 
   const navigate = useNavigate();
 
@@ -43,7 +44,7 @@ const ResumeUploader: React.FC<ResumeUploaderProps> = ({ onUploadSuccess }) => {
 
     try {
       const response = await axios.post(
-        "http://localhost:5000/upload",
+        apiUrl || "http://localhost:5000/upload",
         formData,
         {
           headers: { "Content-Type": "multipart/form-data" },
