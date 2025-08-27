@@ -15,7 +15,8 @@ const ResumeUploader: React.FC<ResumeUploaderProps> = ({ onUploadSuccess }) => {
   const [file, setFile] = useState<File | null>(null);
   const [loading, setLoading] = useState<boolean>(false);
   const [error, setError] = useState<string | null>(null);
-  const apiUrl = import.meta.env.VITE_API_URL;
+  // const apiUrl = import.meta.env.VITE_API_URL;
+  const RENDER_URL = import.meta.env.VITE_RENDER_URL;
 
   const navigate = useNavigate();
 
@@ -43,13 +44,9 @@ const ResumeUploader: React.FC<ResumeUploaderProps> = ({ onUploadSuccess }) => {
     setError(null);
 
     try {
-      const response = await axios.post(
-        apiUrl || "http://localhost:5000/upload",
-        formData,
-        {
-          headers: { "Content-Type": "multipart/form-data" },
-        }
-      );
+      const response = await axios.post(RENDER_URL, formData, {
+        headers: { "Content-Type": "multipart/form-data" },
+      });
 
       // Simpan hasil analisis
       sessionStorage.setItem("resumeResult", JSON.stringify(response.data));
