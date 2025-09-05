@@ -7,8 +7,6 @@ Frontend antarmuka **Resume Analyzer** dibangun menggunakan **React + Vite** den
 Antarmuka ini merupakan bagian dari **Tugas Akhir/Skripsi** dengan judul:  
 **"Implementasi Ekstraksi Informasi, Penilaian, dan Rekomendasi Rule-Based dan Named Entity Recognition pada Antarmuka Web Resume Analyzer."**
 
----
-
 ## ✨ Fitur Frontend
 - **Upload Resume**: form untuk unggah resume PDF (*ATS-friendly*).
 - **Halaman Analisis**: menampilkan informasi ekstraksi, skor penilaian, serta rekomendasi bidang pekerjaan, skill, kursus, dan video.
@@ -16,8 +14,6 @@ Antarmuka ini merupakan bagian dari **Tugas Akhir/Skripsi** dengan judul:
 - **Halaman Tentang**: informasi mengenai tujuan & cara kerja antarmuka.
 - **Error Page**: menampilkan pesan error jika file tidak valid.
 - **Admin Dashboard**: akses data pengguna & statistik.
-
----
 
 ## 🛠️ Instalasi Frontend
 
@@ -44,8 +40,8 @@ Antarmuka ini merupakan bagian dari **Tugas Akhir/Skripsi** dengan judul:
 👨‍🎓 **Catatan**
 Frontend ini dibuat sebagai bagian dari penyusunan Tugas Akhir/Skripsi dan terintegrasi dengan backend berbasis Flask.
 
-/n
-/n
+---
+
 # ENGLISH
 ----------------------------------------
 # 🎨 Resume Analyzer - Frontend
@@ -55,8 +51,6 @@ The frontend interface of **Resume Analyzer** is built using **React + Vite** wi
 This interface is developed as part of a **Bachelor Thesis/Final Project** with the title:  
 **"Implementation of Information Extraction, Evaluation, and Recommendations Using Rule-Based and Named Entity Recognition on a Web-Based Resume Analyzer Interface."**
 
----
-
 ## ✨ Frontend Features
 - **Upload Resume**: Form to upload ATS-friendly PDF resumes.
 - **Analysis Page**: Displays extracted information, evaluation scores, and recommendations for job roles, skills, courses, and tutorials.
@@ -64,8 +58,6 @@ This interface is developed as part of a **Bachelor Thesis/Final Project** with 
 - **About Page**: Provides information on the purpose and workflow of the interface.
 - **Error Page**: Displays error messages for invalid files.
 - **Admin Dashboard**: Access to user data and statistics.
-
----
 
 ## 🛠️ Frontend Installation
 
