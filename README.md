@@ -1,9 +1,5 @@
-
----
-
-## 📌 README Frontend (React + Vite)
-
-```markdown
+# INDONESIAN
+----------------------------------------
 # 🎨 Resume Analyzer - Frontend
 
 Frontend antarmuka **Resume Analyzer** dibangun menggunakan **React + Vite** dengan dukungan **Tailwind CSS** dan **ShadCN UI** untuk antarmuka modern, serta **Chart.js** untuk visualisasi data.
@@ -47,3 +43,39 @@ Antarmuka ini merupakan bagian dari **Tugas Akhir/Skripsi** dengan judul:
 
 👨‍🎓 **Catatan**
 Frontend ini dibuat sebagai bagian dari penyusunan Tugas Akhir/Skripsi dan terintegrasi dengan backend berbasis Flask.
+
+# ENGLISH
+----------------------------------------
+# 🎨 Resume Analyzer - Frontend
+
+The frontend interface of **Resume Analyzer** is built using **React + Vite** with support from **Tailwind CSS** and **ShadCN UI** for a modern design, as well as **Chart.js** for data visualization.
+
+This interface is developed as part of a **Bachelor Thesis/Final Project** with the title:  
+**"Implementation of Information Extraction, Evaluation, and Recommendations Using Rule-Based and Named Entity Recognition on a Web-Based Resume Analyzer Interface."**
+
+---
+
+## ✨ Frontend Features
+- **Upload Resume**: Form to upload ATS-friendly PDF resumes.
+- **Analysis Page**: Displays extracted information, evaluation scores, and recommendations for job roles, skills, courses, and tutorials.
+- **Visualization**: Interactive charts (Chart.js) for resume scoring.
+- **About Page**: Provides information on the purpose and workflow of the interface.
+- **Error Page**: Displays error messages for invalid files.
+- **Admin Dashboard**: Access to user data and statistics.
+
+---
+
+## 🛠️ Frontend Installation
+
+1. **Navigate to the frontend folder**
+   ```bash
+   cd frontend
+2. **Install Dependencies**
+   ```bash
+   npm install
+3. **Configure Environment**
+   ```bash
+   VITE_API_URL=http://localhost:5000
+4. **Run the Frontend Interface**
+   ```bash
+   npm run dev
