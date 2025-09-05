@@ -44,8 +44,8 @@ Antarmuka ini merupakan bagian dari **Tugas Akhir/Skripsi** dengan judul:
 👨‍🎓 **Catatan**
 Frontend ini dibuat sebagai bagian dari penyusunan Tugas Akhir/Skripsi dan terintegrasi dengan backend berbasis Flask.
 
-
-
+/n
+/n
 # ENGLISH
 ----------------------------------------
 # 🎨 Resume Analyzer - Frontend
